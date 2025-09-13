@@ -1,0 +1,49 @@
+.inline-big-title{
+    font-size:60px;
+    /* color: blue */
+    text-align: center; /* horizontal centering */
+    margin-top: 50px;
+}
+
+.link-card {
+    background: white; /* white background */
+    padding: 20px;     /* space inside the box */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow under the box */
+    cursor: pointer;   /* mouse pointer changes to hand on hover */
+}
+
+.link-card a {
+    text-decoration: none; /* removes underline from links */
+    font-size: 18px;       /* slightly bigger text */
+    color: #333;           /* dark gray text */
+    display: block;        /* makes the link fill the parent card */
+}
+
+.links {
+      display: grid; /* makes this element a CSS grid container */
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+}
+
+.password-area {
+      margin-top: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      display: none; /* hidden by default */
+}
+
+.myspace-area {
+    text-align: center;
+    display: none;
+}
+
+.clock {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+}

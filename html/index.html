@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes it mobile friendly -->
+		
+		<title>Home Hub</title>	
+
+		<!-- Link to external CSS -->
+		 <link rel="stylesheet" href="../css/index_style.css">
+	</head>
+	<body>
+		<!-- Page content goes here -->
+		<h1 class="inline-big-title">Welcome to Luo Family</h1>
+		<div class="clock" id="clock"></div>
+
+		<div class="links">
+  			<div class="link-card" ><a id="plex-link-element" href="#">Plex</a></div>
+  			<div class="link-card" ><a id="synology-dsm-link-element" href="#">Synology DSM</a></div>
+  			<div class="link-card" ><a id="router-admin-link-element" href="#">Router Admin</a></div>
+  			<div class="link-card" id="myspace-link-element" onclick="myspace_linkcard_clicked()">My Space</div>
+  		</div>
+
+		<!-- Password form -->
+  		<div class="password-area" id="passwordArea">
+  		  	<h2>Enter Password</h2>
+  		  	<input type="password" id="passwordInput" placeholder="Enter password">
+  		  	<button id="password-unlock-button" onclick="password_unlock_button_clicked()">Unlock</button>
+			<div id="password-warning-message"></div>
+  		</div>
+
+		<!-- My Space area -->
+		<div class="myspace-area" id="mySpaceArea">
+			<input type="email">
+		</div>
+
+		<!-- Link to external JavaScript -->
+		 <script src="../javascript/index.js" defer></script>
+	</body>
+</html>

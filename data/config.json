@@ -1,0 +1,10 @@
+{
+    "links":[
+        { "name": "plexUrl", "url" : "https://baidu.com" },
+        { "name": "synologyDsmUrl", "url" : "https://google.com" },
+        { "name": "routerAdminUrl", "url" : "https://youtube.com" }
+    ],
+    "passwords":[
+        { "name": "mySpace", "password" : "123456"}
+    ]
+}
